@@ -1,0 +1,9 @@
+{
+  "index": {
+    "title": "Bienvenue sur la page d'index",
+    "description": "Ceci est la page d'index de notre application.",
+    "message_zero": "Aucun clic encore",
+    "message_one": "{{count}} clic",
+    "message_other": "{{count}} clics"
+  }
+}
