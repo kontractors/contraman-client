@@ -6,7 +6,7 @@ import {useTranslation} from "react-i18next";
 
 function App() {
     const [count, setCount] = useState(0)
-    const {t} = useTranslation()
+    const {t} = useTranslation('translation');
     return (
         <>
             <div>
@@ -20,7 +20,7 @@ function App() {
             <h1>Vite + React</h1>
             <div className="card">
                 <button onClick={() => setCount((count) => count + 1)}>
-                    {t('count', {count})}
+                    {t('index.message', {count})}
                 </button>
                 <p>
                     Edit <code>src/App.tsx</code> and save to test HMR
